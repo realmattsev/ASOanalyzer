@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -22,7 +23,6 @@ wheels/
 
 # Virtual Environment
 venv/
-env/
 ENV/
 
 # IDE
@@ -32,11 +32,18 @@ ENV/
 *.swo
 
 # Project specific
+*.log
 *.csv
+*.xlsx
 *.png
-*.jpg
-*.jpeg
-*.gif
-*.zip
-google_play_*.txt
-gapp.txt 
+title_subtitle_analysis*/
+google_play_title_subtitle_analysis*/
+comparison_analysis*/
+failed_urls.txt
+google_play_failed_urls.txt
+app.txt
+gapp.txt
+
+# OS specific
+.DS_Store
+Thumbs.db 
